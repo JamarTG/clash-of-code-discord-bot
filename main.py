@@ -19,7 +19,7 @@ bot = commands.Bot(command_prefix="!")
 #===================================================================================
 
 async def mainRunner():
-	await client.login(remember_me_cookie="50244808ba19f9726f2d0202b6dbe9ad03e3029")
+	await client.login(remember_me_cookie="REMEMBER ME COOKIE GOES HERE")
 
 async def create_table():
     async with aiosqlite.connect("./coc_db.db") as connection:
