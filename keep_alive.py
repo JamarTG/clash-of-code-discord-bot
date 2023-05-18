@@ -1,6 +1,5 @@
 from flask import Flask
 from threading import Thread
-# this file was made to keep the bot running even when the tab is closed, this is allowed from replit themselves
 
 app = Flask(__name__)
 
